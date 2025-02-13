@@ -1,0 +1,31 @@
+.accordion-item {
+    border: 1px solid #e0e0e0;
+    border-radius: 6px;
+    margin-bottom: 15px;
+    overflow: hidden;
+  }
+  
+  .accordion-header {
+    background-color: #f7f7f7;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .accordion-header:hover {
+    background-color: #eaeaea;
+  }
+  
+  .toggle-icon {
+    margin-right: 10px;
+    font-size: 1.2rem;
+  }
+  
+  .accordion-content {
+    padding: 15px;
+    background-color: #fff;
+    border-top: 1px solid #e0e0e0;
+  }
+  
