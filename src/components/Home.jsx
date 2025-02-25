@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import './Home.css';
+import KeyToolsSection from './KeyToolsSection';
 
 function Home() {
   const [weather, setWeather] = useState(null);
@@ -96,91 +97,64 @@ function Home() {
       </div>
 
       <section className="key-tools">
-        <h2>Key Links and Tools</h2>
-        <div className="tools-grid">
-          <div className="tool-item">
-            <a href="https://login.clicktime.com" target="_blank" rel="noopener noreferrer">
-              <div className="tool-icon">
-                <img src="https://www.mdlcv.org/wp-content/uploads/2024/10/clicktime.jpg" alt="ClickTime" />
-              </div>
-              <p>ClickTime</p>
-            </a>
-          </div>
-          <div className="tool-item">
-            <a href="https://app.goto.com" target="_blank" rel="noopener noreferrer">
-              <div className="tool-icon">
-                <img src="https://www.mdlcv.org/wp-content/uploads/2024/10/goto_connect.png" alt="GoTo Phone" />
-              </div>
-              <p>GoTo Phone</p>
-            </a>
-          </div>
-          {/* Add additional tool items as needed */}
-        </div>
+      <KeyToolsSection />
+
       </section>
 
       <section className="downloads">
         <h2>Downloads &amp; Resources</h2>
         <div className="downloads-grid">
           <div className="download-item">
-            <a href="#" target="_blank" rel="noopener noreferrer">
+            <a href="https://docs.google.com/presentation/u/0/?ftv=1&folder=0AHOE4-J9H_YuUk9PVA&tgif=d" target="_blank" rel="noopener noreferrer">
               <div className="download-icon">
-                <img src="https://via.placeholder.com/100?text=PPT" alt="PPT Templates" />
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Google_Slides_logo_%282014-2020%29.svg/1489px-Google_Slides_logo_%282014-2020%29.svg.png" alt="PPT Templates" />
               </div>
               <p>PPT Templates</p>
               <button className="download-button">Download</button>
             </a>
           </div>
           <div className="download-item">
-            <a href="#" target="_blank" rel="noopener noreferrer">
+            <a href="https://drive.google.com/drive/u/0/folders/1CKM2aJwCI4uTorHA58tPQApPBJUIleOy" target="_blank" rel="noopener noreferrer">
               <div className="download-icon">
-                <img src="https://via.placeholder.com/100?text=Logo" alt="Logo Files" />
+                <img src="https://www.mdlcv.org/wp-content/uploads/2021/11/MDLCV_Logo1_S_GreenBlueS.png" alt="Logo Files" />
               </div>
               <p>Logo Files</p>
               <button className="download-button">Download</button>
             </a>
           </div>
           <div className="download-item">
-            <a href="#" target="_blank" rel="noopener noreferrer">
+            <a href="https://drive.google.com/drive/u/0/folders/17TrNWvQtHfBfWHLmWfvqHdHAhp9qr2oP" target="_blank" rel="noopener noreferrer">
               <div className="download-icon">
-                <img src="https://via.placeholder.com/100?text=Bios" alt="Speaking Engagement Bios" />
+                <img src="https://upload.wikimedia.org/wikipedia/commons/9/9e/Placeholder_Person.jpg" alt="Speaking Engagement Bios" />
               </div>
               <p>Speaking Engagement Bios</p>
               <button className="download-button">Download</button>
             </a>
           </div>
           <div className="download-item">
-            <a href="#" target="_blank" rel="noopener noreferrer">
+            <a href="https://drive.google.com/drive/u/0/folders/1qF5zfGWcYWUAZW7OxTYt7LzuGTZIOTkZ" target="_blank" rel="noopener noreferrer">
               <div className="download-icon">
-                <img src="https://via.placeholder.com/100?text=Font" alt="Font Files" />
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZjhKQFNcdq47hohJmZREmoKQ_fH649N8pRQ&s" alt="Font Files" />
               </div>
               <p>Font Files</p>
               <button className="download-button">Download</button>
             </a>
           </div>
           <div className="download-item">
-            <a href="#" target="_blank" rel="noopener noreferrer">
+            <a href="https://drive.google.com/drive/u/0/folders/1KJU8sH6SYlu3RTOh9qCoqaNiQf0UnA-Z" target="_blank" rel="noopener noreferrer">
               <div className="download-icon">
-                <img src="https://via.placeholder.com/100?text=Programs" alt="Program Boilerplates" />
+                <img src="https://upload.wikimedia.org/wikipedia/commons/3/35/Icon_Talking_Points.svg" alt="Quick Copy &amp; Paste Info" />
               </div>
-              <p>Program Boilerplates</p>
+              <p>Talking Points + Quick Copy &amp; Paste Info</p>
               <button className="download-button">Download</button>
             </a>
           </div>
           <div className="download-item">
-            <a href="#" target="_blank" rel="noopener noreferrer">
+            <a href="https://drive.google.com/file/d/14rRpE3s3BgeQIr7_lJ_eaInUVHXdlXAM/view?usp=sharing" target="_blank" rel="noopener noreferrer">
               <div className="download-icon">
-                <img src="https://via.placeholder.com/100?text=Quick+Info" alt="Quick Copy &amp; Paste Info" />
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHjd8z32NmjBfzJ6OXOmT5jFJ_ggpcR3eVJg&s" alt="Strategic Plan" />
               </div>
-              <p>Quick Copy &amp; Paste Info</p>
-              <button className="download-button">Download</button>
-            </a>
-          </div>
-          <div className="download-item">
-            <a href="#" target="_blank" rel="noopener noreferrer">
-              <div className="download-icon">
-                <img src="https://via.placeholder.com/100?text=Plan" alt="Strategic Plan" />
-              </div>
-              <p>Strategic Plan</p>
+              <p>Strategic Roadmap</p>
               <button className="download-button">Download</button>
             </a>
           </div>
